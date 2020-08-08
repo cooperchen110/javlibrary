@@ -1,0 +1,14 @@
+# mac
+.DS_Store
+
+# python
+.Python
+__pycache__/
+
+# Proxy list
+proxies.txt
+
+# log
+log/
+
+
