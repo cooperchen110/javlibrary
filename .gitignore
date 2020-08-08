@@ -4,6 +4,8 @@
 # python
 .Python
 __pycache__/
+lib/
+share/
 
 # Proxy list
 proxies.txt
