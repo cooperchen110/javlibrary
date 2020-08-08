@@ -1,5 +1,5 @@
 ## Basic Usage
-Get actors and videos data from [Javlibrary](http://www.javlibrary.com/). The data is stored in MongoDB and the proccessed data is shown in json and csv format.
+Get actor and video infomation from [Javlibrary](http://www.javlibrary.com/). All the data is stored in MongoDB and the proccessed data is shown in json and csv format.
 
 ## How To Use
 - First, you need to clone this repository to your local machine
@@ -22,7 +22,7 @@ source ./bin/activate
 # install required modules with pip
 pip install -r requirement.txt
 ```
-> If you want to exit the virtual environment, run thr follow command
+> If you want to exit the virtual environment, run the following command
 > ```
 > deactivate
 > ```
