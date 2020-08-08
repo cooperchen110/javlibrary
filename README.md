@@ -19,13 +19,21 @@ cd javlibrary
 # activate the virtual environment
 source ./bin/activate
 
+# install required modules with pip
 pip install -r requirement.txt
 ```
 > If you want to exit the virtual environment, run thr follow command
 > ```
 > deactivate
 > ```
-- Third, open your mongoDB server and run the crawler named `actor`
+
+- Third, rename the `proxies_sample.txt` file to `proxies.txt` and add proxies to the file with following format
+```
+http://host1:port
+http://username:password@host2:port
+http://host3:port
+```
+- Fourth, open your mongoDB server and run the crawler named `actor`
 ```
 # go to the scrapy folder
 cd scr/myscrapy/myscrapy
@@ -34,5 +42,6 @@ cd scr/myscrapy/myscrapy
 scrapy crawl actor
 ```
 > If you don't want to store your data with mongoDB, you can modify the piplines.py file
+- Last, do your other business and leave the crawler running until finished
 
 
