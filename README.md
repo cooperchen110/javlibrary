@@ -11,21 +11,20 @@ git clone https://github.com/chenbingyuan110/javlibrary.git
 > ```bash
 > # install virtualenv module with pip
 > pip install virtualenv
->
-> # go to the repo folder
-> cd javlibrary
->
-> # activate the virtual environment
-> source ./bin/activate
->
-> # do your job in the virtual environment
->
-> # when finished all the work, deactivate the virtual environment
-> deactivate
 > ```
 ```bash
+# go to the repo folder
+cd javlibrary
+
+# activate the virtual environment
+source ./bin/activate
+
 pip install -r requirement.txt
 ```
+> If you want to exit the virtual environment, run thr follow command
+> ```
+> deactivate
+> ```
 - Third, open your mongoDB server and run the crawler named `actor`
 ```
 # go to the scrapy folder
